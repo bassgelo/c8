@@ -1,0 +1,37 @@
+baseURL = "https://bassgelo.github.io/c8"  # CHANGE HERE FOR THE WEB
+languageCode = "en-us"
+title = "Camunda 8 Training"
+themesDir = "themes"
+theme = "hugo-whisper-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+# Controls how many words are printed in the content summary on the docs homepage.
+# See https://gohugo.io/content-management/summaries/
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "C8"
+    url = "/exercises/" # BUTTON UPPER RIGHT CORNER
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/c8/exercises/' # MIDDLE BUTTON
+  homepage_button_text = 'See Camunda 8 exercises '
+  homepage_intro = 'Welcome to the exercises for the Camunda 8 Training'
+  
+  ## You can enable to add anchor links to header elements
+  # enable_anchor_link = true
+
+  [params.logo]
+      mobile = "/c8/images/logo-mobile.svg"
+      standard  = "/c8/images/logo.svg"
