@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on BPMN Training</title>
+    <link>/bpmn/</link>
+    <description>Recent content in Overview on BPMN Training</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/bpmn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dispatch of goods</title>
+      <link>/bpmn/dispatch-of-goods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bpmn/dispatch-of-goods/</guid>
+      <description>Background This process happens at a small hardware company that ships small amounts of goods to end customers but also larger orders to other businesses.
+Task: Model the following process. If goods need shipping, the secretary first clarifies who is responsible for doing the shipping. If the order contains large amounts, special delivery will be necessary. In that case, the secretary invites three logistics companies to make offers, and she or he selects one of them.</description>
+    </item>
+    
+    <item>
+      <title>Eliminate the OR-Join</title>
+      <link>/bpmn/eliminate-join/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bpmn/eliminate-join/</guid>
+      <description>Background This process works fine, but requires adjusment. The goal is to practice modelling an alternative construction that does the same as the original.
+Task: Eliminate the OR-join from the following process model. </description>
+    </item>
+    
+    <item>
+      <title>Handling problems</title>
+      <link>/bpmn/handling-problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bpmn/handling-problems/</guid>
+      <description>Background This process considers only the standard way but not yet all possible problems that can happen.
+Task: Add the handling of the following problems to the same model that shows the happy path. The order data is incomplete The order data is unreadable The customer number within the order is wrong The credit rating of the customer is insufficient The ordered item is not available Sending the order confirmation fails.</description>
+    </item>
+    
+    <item>
+      <title>Pizza order - Calm down the customer</title>
+      <link>/bpmn/pizza-order-calm-customer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bpmn/pizza-order-calm-customer/</guid>
+      <description>Background If the customer calls because of the delayed pizza, the clerk should calm him down.
+Task: Model the following situation. Use one of the following symbol set.
+Hints
+For the solution, it is sufficient if the pool of the customer is collapsed.
+Each subtask (symbol set 1 or symbol set 2) should be worked out in a separate BPMN model.</description>
+    </item>
+    
+    <item>
+      <title>Pizza order - interrupting the inquiry</title>
+      <link>/bpmn/pizza-order-interrupting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bpmn/pizza-order-interrupting/</guid>
+      <description>Background This process is almost complete. It does not consider one step that have to be added.
+Task: Model the following situation. If the customer receives the pizza during the inquiry, he ends the telephone conversation and pays for the pizza.</description>
+    </item>
+    
+    <item>
+      <title>Recourse</title>
+      <link>/bpmn/recourse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bpmn/recourse/</guid>
+      <description>Background Insurance policyholders can be forced to pay back the money they received from the insurance company for various reasons. This procedure is called recourse. In the following text, the clerk describes how this process works.
+Task: Model the following process. If a policyholder could be legally pursued to recover a claim, I get information about that case.
+I first check the case for potential subrogation. Then, I send a request for payment to the policyholder and set a reminder for myself to follow up with the client.</description>
+    </item>
+    
+    <item>
+      <title>Self-service restaurant</title>
+      <link>/bpmn/self-service-restaurant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bpmn/self-service-restaurant/</guid>
+      <description>Background A self-service restaurant is under chaotic conditions. Guests place their order at the till and receive their meals on call from the kitchen. As the restaurant is very popular, the processes need to be adapted to the increasing demand.
+In the future, guests should only interact with one member of the staff when placing their order. The chef should purely be concentrating on preparing the meals. Buzzers will be introduced to signal to customers when their order is ready.</description>
+    </item>
+    
+    <item>
+      <title>Unfortunate modeling style</title>
+      <link>/bpmn/unfortunate-style/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bpmn/unfortunate-style/</guid>
+      <description>Background The following model contains errors, modeling, wording, etc.
+Task: Find the errors in the model and then improve the model. In the first step, you have to detect mistakes and try to still interpret the intended meaning in the right way. In the next step, you should improve the process model, which should also follow modeling best practices.</description>
+    </item>
+    
+  </channel>
+</rss>
